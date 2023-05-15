@@ -1,0 +1,232 @@
+
+body{
+    font-family: 'Roboto' sans-serif;
+    color: var(--text-color);
+}
+
+:root{
+    --first-title-color: #2E2F42;
+    --logo-color: #404BBF;
+    --page-color: #ffffff;
+    --background-color: #F4F4FD;
+    --btn-color:#4D5AE5;
+    --text-color:#434455;
+
+}
+/** ----------------------------------HEADER ---------------------------**/
+.header-logo{
+    font-family: 'Raleway' sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--first-title-color);
+}
+.header-logo-span{
+  color:var(--logo-color); 
+}
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style: none;  
+}
+.header-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: var(--first-title-color);
+}
+.header-link:hover{
+    color: var(--logo-color);
+}
+.header-link:focus{
+    color:var(--logo-color); 
+}
+
+
+.header-contact-link{
+font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+}
+.header-contact-link:hover{
+    color:var(--logo-color); 
+}
+.header-contact-link:focus{
+    color:var(--logo-color); 
+}
+
+/* First section solution */
+
+.solutions-section{
+
+    background-color: var(--first-title-color);
+}
+.solutions-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color:var(--page-color);
+}
+.solutions-btn-text{
+    font-family: 'Roboto'sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color:var(--page-color);
+}
+.solutions-btn{
+background-color: var(--btn-color);
+cursor: pointer;
+}
+.solutions-btn:hover{
+    background-color:var(--logo-color);
+}
+.solutions-btn:focus{
+    background-color:var(--logo-color);
+}
+
+/* Section-Values */
+
+.values-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--first-title-color);
+}
+.values-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Section-ABOUT */
+.about-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+}
+
+/* Section-OUR Team */
+
+
+.team-section{
+    background:var(--background-color);  
+}
+
+.team-top-title{
+
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--first-title-color);
+}
+.team-bottom-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.20;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--first-title-color);
+}
+.team-profession-text{
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.team-background-photo{
+background:var(--page-color);
+}
+
+/* Footer */
+
+.footer{
+background-color: var(--first-title-color);
+}
+
+
+.footer-logo{
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:var(--background-color);
+}
+.footer-logo-span{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--btn-color);
+}
+.footer-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--background-color);
+}
+
+
+/* Portfolio */
+
+/* portfolio-btn */
+
+.portfolio-btn{
+    background:var(--background-color);
+}
+.portfolio-btn:hover{
+background-color: var(--btn-color);
+}
+
+.portfolio-btn-text{
+font-family: 'Roboto';
+font-style: normal;
+ font-weight: 500;
+font-size: 16px;
+line-height: 1.5 ;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: var(--btn-color);
+}
+.portfolio-btn-text:hover{
+   color: var(--background-color); 
+}
+
+.portfolio-bottom-title{
+
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.20;
+letter-spacing: 0.02em;
+color: var(--first-title-color);
+}
+.portfolio-text{
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+}
