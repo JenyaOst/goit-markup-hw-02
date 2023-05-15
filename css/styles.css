@@ -221,6 +221,17 @@ color: var(--btn-color);
 background:var(--background-color);
 cursor: pointer;
 }
+.portfolio-btn:hover{
+background-color: #404BBF;
+color: #ffffff;
+
+}
+.portfolio-btn:focus{
+background-color: #404BBF;
+color: #ffffff;
+
+}
+
 
 
 .portfolio-bottom-title{
